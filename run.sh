@@ -46,7 +46,7 @@ install_nodejs () {
         log "Ignoring node/npm command check, downloading node.js"
     fi
     
-    NODEJS_VERSION="v8.11.4"
+    NODEJS_VERSION="v14.17.5"
     NODEJS_SHASUM_URL="https://nodejs.org/dist/${NODEJS_VERSION}/SHASUMS256.txt"
 
     log "Detecting architecture and platform..."
